@@ -1,0 +1,22 @@
+# amazon-jp.mrs geosite规则集，适用于 Clash/Meta/Mihomo
+# 可直接用于 rule-providers，推荐日亚流量分流到日本节点
+
+payload:
+  - domain_suffix:amazon.co.jp
+  - domain_suffix:www.amazon.co.jp
+  - domain_suffix:images-na.ssl-images-amazon.com
+  - domain_suffix:static.amzn.nexon.co.jp
+  - domain_suffix:ssl-images-amazon.com
+  - domain_suffix:m.media-amazon.com
+  - domain_suffix:fls-fe.amazon.co.jp
+  - domain_suffix:amazon-adsystem.com
+  - domain_suffix:amazonaws.jp
+  - domain_suffix:amazon.jp
+  - domain_suffix:amazonpay.co.jp
+  - domain_suffix:assoc-amazon.jp
+  - domain_suffix:amazon.co.jp.adsafeprotected.com
+  - domain_suffix:amazon.co.jp.cdn.cloudflare.net
+  - domain_suffix:s3-ap-northeast-1.amazonaws.com
+  - domain_suffix:amazonvideo.jp
+  - domain_suffix:primevideo.com
+  - domain_suffix:primevideo.jp
